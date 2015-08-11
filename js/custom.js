@@ -1,3 +1,4 @@
-$("#buttonClick").click(function(){
-	alert("Assignment 2!");
+$( "#downloadButton" ).click(function() {
+  alert( "Thank you for visiting. Let's stay connected!" );
 });
+
