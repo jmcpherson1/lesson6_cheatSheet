@@ -3,7 +3,7 @@ html, body{
 	width:100%;
 }
 
-#topSection{
+/*#topSection{
 	width:100%;
 	height:10px;
 	position:absolute;
@@ -18,58 +18,60 @@ html, body{
 	position:absolute;
 	bottom:0px;
 	left:0px;
-}
+}*/
 
 #containerBox{
-	border:solid 0px #000;
-	width:700px;
-	text-align:center;
-	position:absolute;
 	background-color:#006699;
-	
 	height:600px;
+	width:700px;
+	border-radius: 50px;	
+	
+	position:absolute;
 	top:0px;
 	bottom:0px;
-	margin-top: auto;
-	margin-bottom:auto;
-	left:25%;
+	left:0px;
+	right:0px;
+	margin: auto;
 }
 
-
 #socialButtons{
-
 	position: relative;
 	float:left;
 	z-index:100;
-	top: 10px;
+	top: 75px;
 	left: 225px;
 }
 
 
-.social{
+#social{
 	height:50px;
-	padding-left: 15px;
+	padding:15px;
 
 }
 
 
 #title{
-	font-size:72px;
+	font-size:62px;
 	color: white;
 	text-align: center;
-	z-index: 100;
-	float: left;
 
 	position: relative;
-	top:250px;
-	left:10px;
+	float: left;
+	top:150px;
+	left:65px;
+
+	z-index: 100;
+
 }
 	
 #downloadButton{
 	width:250px;
 	height:70px;
 	font-size: 20px;
+	font-weight:bold;
 	border:none; /*fix to customize button size*/
+	border-radius:10px;
+	cursor:pointer;
 
 	position:relative;
 	float:left;
@@ -79,6 +81,16 @@ html, body{
 	z-index: 100;
 
 }
+
+.buttonBg:{
+}
+
+/*input:hover {
+	/*background-color:red;*/
+  /*box-shadow: inset 0 0 0 50px rgba(0, 0, 0, .5);
+  color:white;
+}*/
+
 
 .clearfix{
 	clear:both;
